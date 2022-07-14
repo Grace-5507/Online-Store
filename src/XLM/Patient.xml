@@ -1,0 +1,31 @@
+<!-- A Health Record storage tag for  A hospital-->
+
+<Health-Records>
+<Patient class="Personal details">
+<P.DetailsList>
+<Name>James Otieno</Name>
+<Age>55 yrs</Age>
+<ID>1234567</ID>
+<Adress>Kitengela</Adress>
+</P.DetailsList>
+<Past_Health_Condition>
+<Hospital>Mbagathi level 5<Hospital>
+<Prescription>Be physically active and eat healthy<Prescription>
+<Timedate>3/4/2022</Timedate>
+<Health_Condition>Hypertension and Diabetes<Health_Condition/>
+</Past_Health_Records>
+</TestResults>
+<TestResults class="Tests">
+<TestsList>
+<Weight>90kg</Weight>
+<Height>1.78 meters</Height>
+<BloodPressurel>120/150</BloodPressurel>
+</TestResults>
+<Treatment>
+<Doctor>Dr Wendy<Name>
+<RoomNumber>21<RoomNumber>
+<Nurse>Pamelah</Nurse>
+<BedNumber>14</BedNumber>
+</Treatment>
+</TestResults>
+</Health-Records>

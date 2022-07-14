@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #e9f0ff;
+}
+.header {
+  background: #e9f0ff;
+}
+#nav {
+  color: #000033;
+  font-weight: bold;
+  text-decoration: none;
+}
+.ready {
+  width: 60%;
+  padding-right: 8px;
+}
+.image {
+  width: 40%;
+  padding-left: 8px;
+}
+p {
+  margin: auto;
+}
+h1 {
+  font-size: 50px;
+  margin: auto;
+  margin-top: 10%;
+}
+form {
+  margin-top: 16px;
+  width: 100%;
+}
+
+input {
+  background-color: white;
+  width: 100%;
+  padding: 16px 24px;
+  border-radius: 24px;
+  border: 2px solid #e9f0ff;
+}
+.buyerbtn {
+  background-color: #e9f0ff;
+  width: 100%;
+  padding: 8px 24px;
+  border-radius: 24px;
+  border: 4px solid #fcd259;
+  margin: 4px;
+  font-size: 20px;
+}
+
+.sellerbtn {
+  background-color: #fcd259;
+  width: 100%;
+  padding: 8px 24px;
+  border-radius: 24px;
+  border: 4px solid #fcd259;
+  margin: 4px;
+  color: white;
+  font-size: 20px;
+}
+.content {
+  display: flex;
+  width: 100%;
+}
+
+.registerbtn {
+  background-color: #000033;
+  padding: 16px 24px;
+  color: white;
+  border-radius: 16px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.container {
+  max-width: 85%;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.assets {
+  margin-right: auto;
+}
