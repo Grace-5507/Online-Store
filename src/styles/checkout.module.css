@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+.header {
+  background: #f9f9f9;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  padding: 0.5rem 3rem;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.atag {
+  display: flex;
+  align-items: center;
+}
+.atag p {
+  margin-right: 0.5rem;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: end;
+  margin-left: 0%;
+  margin-right: 50%;
+}
+nav ul li {
+  margin-right: 20px;
+  color: #000033;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  color: #000033;
+}
+.first a {
+  padding: 30%;
+}
+.main {
+  display: flex;
+  padding: 4rem 6rem;
+  width: 100%;
+
+  justify-content: space-between;
+}
+.shopping {
+  width: 66.67%;
+  padding: 0rem 2rem;
+}
+.shopHead {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 0.25rem;
+}
+.aside {
+  width: 33.33%;
+  padding: 0rem 2rem;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.second {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.secure {
+  background-color: rgb(223, 219, 219);
+  border-radius: 16px;
+  margin-top: 3rem;
+  padding: 1.5rem 0rem;
+}
+.secure h3 {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+.secure p {
+  color: grey;
+  text-align: center;
+
+  padding: 0rem 1.5rem;
+}
+.order {
+  background-color: white;
+  border-radius: 0.25rem;
+  padding: 1.5rem;
+}
+.proceedbtn {
+  color: white;
+  border-radius: 0%;
+  width: 100%;
+  margin: 0%;
+}
+.couponbtn {
+  color: rgb(185, 184, 184);
+  font-weight: lighter;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0px;
+  padding: 0.5rem 0rem;
+  width: 50%;
+}
+.savebtn {
+  margin-left: 0%;
+}
+#total {
+  font-weight: bold;
+}
+.cartinfo h1 {
+  font-size: small;
+  width: 32px;
+  margin: 0%;
+}
+
+.aside h1 {
+  font-size: 20px;
+}
+.aside h2 {
+  font-size: 15px;
+}
+.shopinfo {
+  margin-top: 2rem;
+  background-color: #fff;
+  padding: 1rem 2rem;
+}
+
+.Payment {
+  margin-top: 2rem;
+  background-color: #fff;
+}
+.imgcontainer {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(231, 226, 226);
+}
+.evax {
+  width: 100%;
+  padding: 0.5rem 2rem;
+  display: flex;
+
+  border-radius: 0.25rem;
+  margin-top: 2rem;
+  background-color: #ffff;
+  justify-content: start;
+}
+small {
+  font-weight: bold;
+}
+
+.orderText {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 0rem;
+}
+
+.orderTotal {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0rem;
+  font-weight: 700;
+  border-top: 1px solid grey;
+  margin-top: 0.5rem;
+}
+.secureIcons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.icon1 {
+  margin-right: 0.5rem;
+}
+.icon2 {
+  margin-right: 0.5rem;
+  color: red;
+}
+.icon3 {
+  color: orange;
+}
+
+.shopIcon {
+  display: flex;
+  align-items: center;
+}
