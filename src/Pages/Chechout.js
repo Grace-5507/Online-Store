@@ -2,12 +2,18 @@ import React from "react";
 import classes from "../styles/checkout.module.css";
 
 import { FaRecycle } from "react-icons/fa";
-import { FaCcVisa } from "react-icons/fa";
+
 import { AiOutlineSecurityScan } from "react-icons/ai";
 import { MdOutlineSecurity } from "react-icons/md";
 import { VscAccount } from "react-icons/vsc";
 import { IoIosCart } from "react-icons/io";
 import { BiBox, BiHeart } from "react-icons/bi";
+import { ImGift } from "react-icons/im";
+import { FaGooglePay } from "react-icons/fa";
+import { FaCcPaypal } from "react-icons/fa";
+import { FaCcVisa } from "react-icons/fa";
+import { FaCcMastercard } from "react-icons/fa";
+import { FaCreditCard } from "react-icons/fa";
 
 const Chechout = () => {
   return (
@@ -160,18 +166,22 @@ const Chechout = () => {
                 style={{
                   display: "flex",
                   margin: "8px 0px",
+                  justifyContent: "space-between",
+                  alignItems: "center",
                 }}
               >
-                <div style={{ width: "50%" }}>
+                <div>
                   <button type="Save" className={classes.savebtn}>
                     Save and Continue
                   </button>
                 </div>
+                <div style={{ display: "flex" }}>
+                  <input type="checkbox" id="save" name="save" value="save" />
+                  <label className={classes.save} htmlfor="save">
+                    set as default
+                  </label>
+                </div>
               </div>
-              <input type="checkbox" id="save" name="save" value="save" />
-              <label className={classes.save} htmlfor="save">
-                set as default
-              </label>
             </div>
             <div className={classes.shopinfo}>
               <p>Payment Method</p>
@@ -179,22 +189,39 @@ const Chechout = () => {
             <div className={classes.Payment}>
               <div className={classes.cartinfo}>
                 <div className={classes.paycontainer}>
-                  <div style={{ display: "flex" }}>
-                    <img
-                      src={require("../Asset/images/img.png")}
-                      alt=""
-                      width="200px"
-                    />
-                    <img
-                      src={require("../Asset/images/img.png")}
-                      alt=""
-                      width="200px"
-                    />
-                    <img
-                      src={require("../Asset/images/img.png")}
-                      alt=""
-                      width="200px"
-                    />
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      padding: "2rem",
+                    }}
+                  >
+                    <div className={classes.paymethods}>
+                      <div
+                        style={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                        }}
+                      >
+                        <FaCreditCard
+                          size={24}
+                          style={{ marginRight: "0.25rem" }}
+                        />
+                        <FaCcMastercard
+                          size={24}
+                          style={{ marginRight: "0.25rem" }}
+                        />
+                        <FaCcVisa size={24} />
+                      </div>
+                      <p>Debit Card</p>
+                    </div>
+                    <div className={classes.paymethods}>
+                      <FaCcPaypal size={36} />
+                    </div>
+                    <div className={classes.paymethods}>
+                      <FaGooglePay size={36} />
+                      <p>Google Pay</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -218,11 +245,12 @@ const Chechout = () => {
                   <span>Subtotal</span>
                   <span>$19.00</span>
                 </div>
-                <div>
+                <div className={classes.coupon}>
                   <button type="Coupon Code" className={classes.couponbtn}>
-                    Coupon Code
+                    <p> Coupon Code</p>
                   </button>
-                  <FaRecycle size={24} className={classes.icon1} />
+                  <ImGift size={24} className={classes.icongift} />
+                  <span style={{ color: "#cfae1a" }}>My Gifts </span>
                 </div>
 
                 <div className={classes.orderTotal}>

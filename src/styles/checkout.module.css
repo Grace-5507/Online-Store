@@ -115,16 +115,20 @@ p {
 }
 .couponbtn {
   color: rgb(185, 184, 184);
-  font-weight: lighter;
+  font-weight: normal;
   background-color: white;
   display: flex;
   justify-content: space-between;
   margin-left: 0px;
   padding: 0.5rem 0rem;
   width: 50%;
+  border: 2px solid #cfae1a;
 }
 .savebtn {
-  margin-left: 0%;
+  padding: 0.75rem 2rem;
+  margin-left: 0px;
+  font-size: 0.75rem;
+  width: 100%;
 }
 #total {
   font-weight: bold;
@@ -192,6 +196,13 @@ small {
   display: flex;
   justify-content: center;
 }
+.coupon {
+  display: flex;
+}
+.icongift {
+  color: #cfae1a;
+  margin-left: 4rem;
+}
 .icon1 {
   margin-right: 0.5rem;
 }
@@ -206,4 +217,18 @@ small {
 .shopIcon {
   display: flex;
   align-items: center;
+}
+.paymethods {
+  width: 25%;
+  border: 1px solid grey;
+  padding: 0.75rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  height: 100px;
+}
+.save {
+  display: inline-block;
 }
